@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+       
+        th {
+            border: 3px solid black;
+            border-collapse: collapse;
+            border-top: unset;
+            border-left: unset;
+        }
+        td{
+            border: 3px solid black;
+            border-bottom: unset;
+            border-right: unset;
+        }
+        table {
+            border: 3px solid black;
+            border-collapse: collapse;
+            border-top: unset;
+            border-left: unset;
+            border-bottom: unset;
+            border-right: unset;
+        }
+        thead {
+            text-align: left;
+        }
+        .rightCell {
+            border-right: unset;
+        }
+        .leftCells {
+            border-left: unset;
+        }
+    </style>
+    <title>Portfolio Content</title>
+</head>
+<body>
+    <h1>Carlos Francis</h1>
+    <section>
+        <img src="20201002_142023.jpg" alt="photo of Carlos" width="200">
+    </section>
+    <section>
+        <a href="https://www.linkedin.com/in/carlos-francis/"><img src="icons8-linkedin-50.png" alt="linkedin icon"> my github</a>
+        <a href="https://github.com/SRookie1990"><img src="icons8-github-50.png" alt="github icon"> my linkedin</a>
+        <a href="mailto:cfavo56@gmail.com?"><img src="icons8-send-email-50.png" alt="email icon">my email</a>
+    </section>
+    <section>
+        <h3>Technologies</h3>
+        <table width="70%">
+            <thead>
+                <th>Front-End</th>
+                <th>Python</th>
+                <th>Javascipt</th>
+                <th>Database</th>
+                <th class="rightCell">Concepts</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="leftCells">HTML5</td>
+                    <td>Django</td>
+                    <td>Express</td>
+                    <td>MySQL</td>
+                    <td>AJAX</td>
+                </tr>
+                <tr>
+                    <td class="leftCells">CSS3</td>
+                    <td>Flask</td>
+                    <td>Mongoose</td>
+                    <td>MongoDB</td>
+                    <td>OOP</td>
+                </tr>
+                <tr>
+                    <td class="leftCells">Bootstrap</td>
+                    <td>Unittest</td>
+                    <td>React</td>
+                    <td></td>
+                    <td>REST</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <H3>Social Snakes</H3>
+        <img src="icons8-code-64.png" alt="code icon">
+        <p>Social Media App made in Python - <a href="">code I deployed</a></p>
+    </section>
+    <section>
+        <h3>Contact Me</h3>
+        <form action="">
+            <div>
+                <label>Name: </label>
+                <input type="text" name="name" id="name">
+                <label>Email: </label>
+                <input type="text" name="email" id="email">
+            </div>
+            <div>
+                <label style="float:left;">Message:</label>
+                <textarea name="about" id="about" cols="30" rows="3"></textarea>
+            </div>
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+</body>
+</html>

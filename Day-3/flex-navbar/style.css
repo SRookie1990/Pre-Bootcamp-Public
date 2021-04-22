@@ -1,0 +1,48 @@
+.nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+body {
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+.nav-title {
+    font-weight: 400;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+span {
+    color: grey
+}
+
+li {
+    list-style-type: none;
+    padding: 0 12px;   
+}
+
+button {
+    color: white;
+    background-color: #21a5de;
+    border: 10px black;
+    box-shadow: 5px 5px black;
+    border-radius: 1px;
+    padding: 3px 8px;
+}

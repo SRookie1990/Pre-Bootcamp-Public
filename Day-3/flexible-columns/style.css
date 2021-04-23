@@ -1,0 +1,32 @@
+.row, .row2, .row3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col, .col2, .col3 {
+    background-color: #0a9184;
+    color: #e1f2f1; 
+    margin: 6px;
+    padding: 15px;
+}
+
+.col {
+    width: 240px;  
+}
+
+.row2 > .col {
+    width: 320px;
+}
+
+.col2 {
+    width: 640px; 
+} 
+ 
+.row3 > .col2 {
+    width: 384px;
+}
+
+.col3 {
+    width: 576px; 
+}
+
